@@ -1,0 +1,33 @@
+Git commands for Terminal:
+
+///////// will using git it's posible I'll add commands and/or swhitch them for  Most<>Less used /////////
+
+///// Most used commands: ///// 
+
+git init = Create a new local repository
+
+git add <filename> or git add * = Add one or more files to staging (index):
+
+git commit -m "Commit message" = Commit changes to head (but not yet to the remote repository):
+
+git commit -a = Commit any files you've added with git add, and also commit any files you've changed since then:
+
+git commit -a -m "Commit message" = Commit any files you've added with git add, and also commit any files you've changed since then: Commit changes to head (but not yet to the remote repository):
+
+git push origin master = Send changes to the master branch of your remote repository:
+
+git status = List the files you've changed and those you still need to add or commit:
+
+///// less used git commands ///// 
+
+git checkout -b <branchname> = Create a new branch and switch to it:
+
+git checkout <branchname> = Switch from one branch to another:
+
+git branch = List all the branches in your repo, and also tell you what branch you're currently in:
+
+git branch -d <branchname> = Delete the feature branch:
+
+git push origin <branchname> = Push the branch to your remote repository, so others can use it:
+
+git push --all origin = Push all branches to your remote repository:
