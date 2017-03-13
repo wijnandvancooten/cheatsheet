@@ -31,3 +31,9 @@ git branch -d <branchname> = Delete the feature branch:
 git push origin <branchname> = Push the branch to your remote repository, so others can use it:
 
 git push --all origin = Push all branches to your remote repository:
+
+git stash = changes will be saved outside the branch to be used later 
+
+git reset = you can use —-hard or —-soft and set back to a previous commit. You need the # 
+
+git rebase = can be used in a branche to update it form the master.  
